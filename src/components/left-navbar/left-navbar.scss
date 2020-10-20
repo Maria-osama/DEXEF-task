@@ -1,0 +1,35 @@
+.navbar{
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 0 !important;
+    .navbar-nav{
+        display: block !important;
+    }
+
+    .nav-item{
+        text-align: center;
+        margin-bottom: 40px;
+        &.active{
+          border-left: 4px solid #80c1fe;
+          padding: 0 44px;
+        }
+        img{
+            width: 20px;
+            cursor: pointer;
+        }
+    }
+
+    @media (max-width: 767px){
+        .navbar-nav{
+            display: flex !important;
+            flex-direction: row;
+        }
+        .nav-item{
+            margin-right: 10px;
+        }
+        .nav-item.active{
+            padding: 0;
+            border:0;
+        }
+    }
+}

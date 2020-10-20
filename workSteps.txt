@@ -1,0 +1,14 @@
+
+ - This is a React JS task, it's created using create-react-app command
+ - To run the app follow the steps below : 
+
+    * Clone the project from the giving link mentioned in the email.
+    * open cmd on the project and run the below commands
+    * npm install
+    * npm start
+
+
+--------------------------------------
+
+- task design was not be abled to open over any app to extract icons and image , So I used random images over the internet
+

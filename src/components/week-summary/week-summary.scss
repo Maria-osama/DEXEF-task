@@ -1,0 +1,76 @@
+.week-summary-section{
+    margin-left: auto !important;
+    margin-right: auto !important;
+.week-summary-table{
+   
+    th , td{
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+    thead{
+        tr{
+            background-color: #e5f3fe;
+            color: #2897fe;
+
+            th:first-child{
+                border-radius:30px 0 0 30px;
+              }
+            th:last-child{
+                border-radius:0 30px 30px 0;
+               // text-align: right;
+              }
+        }
+    }
+    tbody{
+        tr{
+            border-right: 3px solid #f2f3f4;
+            
+        }
+    }
+}
+.middle-col{
+    display: table;
+    overflow: hidden;
+    height: 220px;
+    div{
+        display: table-cell;
+        vertical-align: middle;
+        h1{
+            font-size: 45pt;
+            font-weight: bold;
+        }
+        h6{
+            color: #a0aaae;
+        }
+    }
+}
+
+
+@media (max-width: 1044px) {
+    .week-summary-table{
+       font-size: 12px;
+      
+    }
+    .middle-col div h1{
+        font-size: 35pt;
+    }
+}
+@media (max-width: 767px){
+    .week-summary-table{
+        font-size: 13px;
+        thead{
+            th{
+                padding: 4px 3px;
+            }
+        }
+      tbody{
+        tr{
+            border-right:none;       
+        }
+    }
+}
+.middle-col{
+    height: 120px;
+}
+}
+}
